@@ -1,19 +1,20 @@
-package com.lmmmowi.sample.designpattern.factory;
+package com.lmmmowi.sample.designpattern.abstractfactory;
 
 import com.lmmmowi.sample.designpattern.common.*;
 
-class Cook {
+class ItalianCook implements Cook {
 
-    Dish prepare(DishStyle dishStyle) {
+    @Override
+    public Dish prepare(DishStyle dishStyle) {
         switch (dishStyle) {
             case SALTY:
                 return new RoastChicken();
             case SWEET:
                 return new CheeseCake();
             case SPICY:
-                return new MapoTofu();
+                return new ShrimpFraDiavolo();
             default:
-                throw new UnsupportedOperationException();
+                return null;
         }
     }
 }

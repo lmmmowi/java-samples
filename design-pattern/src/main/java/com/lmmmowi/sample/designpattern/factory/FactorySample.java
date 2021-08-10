@@ -1,20 +1,25 @@
 package com.lmmmowi.sample.designpattern.factory;
 
-public class Sample {
+import com.lmmmowi.sample.designpattern.common.Dish;
+import com.lmmmowi.sample.designpattern.common.DishStyle;
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
+public class FactorySample {
 
     public static void main(String[] args) {
         Cook cook = new Cook();
 
         // 想吃咸的
         Dish dish = cook.prepare(DishStyle.SALTY);
-        System.out.println(dish.taste());
+        log.info(dish.taste());
 
         // 想吃甜的
         dish = cook.prepare(DishStyle.SWEET);
-        System.out.println(dish.taste());
+        log.info(dish.taste());
 
         // 想吃辣的
         dish = cook.prepare(DishStyle.SPICY);
-        System.out.println(dish.taste());
+        log.info(dish.taste());
     }
 }

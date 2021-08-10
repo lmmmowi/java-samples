@@ -1,4 +1,4 @@
-package com.lmmmowi.sample.designpattern.factory;
+package com.lmmmowi.sample.designpattern.common;
 
 public class MapoTofu implements Dish {
 

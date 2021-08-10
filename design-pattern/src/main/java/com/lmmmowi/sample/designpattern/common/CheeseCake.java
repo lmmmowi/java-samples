@@ -1,6 +1,6 @@
-package com.lmmmowi.sample.designpattern.factory;
+package com.lmmmowi.sample.designpattern.common;
 
-public class Cake implements Dish {
+public class CheeseCake implements Dish {
 
     @Override
     public String taste() {
