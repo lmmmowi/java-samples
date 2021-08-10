@@ -1,4 +1,5 @@
 # 设计模式
+>***推荐学习网站：https://refactoringguru.cn/design-patterns***
 
 ## 创建型模式
 ### 1. 工厂方法模式
