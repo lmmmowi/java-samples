@@ -12,6 +12,7 @@
     <modules>
         <module>rocketmq</module>
         <module>nacos</module>
+        <module>design-pattern</module>
     </modules>
 
     <properties>
