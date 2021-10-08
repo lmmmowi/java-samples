@@ -13,6 +13,7 @@
         <module>rocketmq</module>
         <module>nacos</module>
         <module>design-pattern</module>
+        <module>jvm</module>
     </modules>
 
     <properties>
